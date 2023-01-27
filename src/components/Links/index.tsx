@@ -5,7 +5,7 @@ export function Links() {
         <C.Container>
            <ul>
             <li>
-                <img src="public/assets/map-pin.svg" alt="ícone de Mapa" />
+                <img src="assets/map-pin.svg" alt="ícone de Mapa" />
                 <p>Brazil</p>
             </li>
             <li>
