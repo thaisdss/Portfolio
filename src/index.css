@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #837E9F;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+section{
+  background-color: #302F3D;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.477);
+}
+
+@media(max-width: 826px) {
+  section{
+    justify-self: center;
+  }
+}
