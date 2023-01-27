@@ -9,19 +9,19 @@ export function Links() {
                 <p>Brazil</p>
             </li>
             <li>
-                <img src="../../public/assets/github.svg" alt="ícone do GitHub" />
+                <img src="assets/github.svg" alt="ícone do GitHub" />
                 <p><a href="https://github.com/thaisdss">thaisdss</a></p>
             </li>
             <li>
-                <img src="../../public/assets/linkedin.svg" alt="ícone do Linkedin" />
+                <img src="assets/linkedin.svg" alt="ícone do Linkedin" />
                 <p><a href="https://www.linkedin.com/in/thaisdss/">thaisdss</a></p>
             </li>
             <li>
-                <img src="../../public/assets/instagram.svg" alt="Ícone do Instagram" />
+                <img src="assets/instagram.svg" alt="Ícone do Instagram" />
                 <p><a href="https://www.instagram.com/thaisdss.silva/">thaisdss.silva</a></p>
             </li>
             <li>
-                <img src="../../public/assets/mail.svg" alt="Ícone do E-mail" />
+                <img src="assets/mail.svg" alt="Ícone do E-mail" />
                 <p><a href="mailto:thaisdss.silva@gmail.com">thaisdss.silva@gmail.com</a></p>
             </li>
            </ul>
