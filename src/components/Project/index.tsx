@@ -14,17 +14,17 @@ export function Project({ dataRepo, index }: Props) {
     return(
         <C.Container className={`project${index}`} onClick={redirectPage}>
             <div className="name">
-                <img src="../../public/assets/folder.svg" alt="Imagem de Folder" />
+                <img src="assets/folder.svg" alt="Imagem de Folder" />
                 <p>{dataRepo.name}</p>
             </div>
 
             <p className="description">{dataRepo.description}</p>
 
             <div className="star-fork">
-                <img src="../../public/assets/star.svg" alt="Imagem de Estrela" />
+                <img src="assets/star.svg" alt="Imagem de Estrela" />
                 <p className="star">{dataRepo.stargazers_count}</p>
 
-                <img src="../../public/assets/git-branch.svg" alt="Imagem de Branch" />
+                <img src="assets/git-branch.svg" alt="Imagem de Branch" />
                 <p>{dataRepo.forks_count}</p>
             </div>
 
