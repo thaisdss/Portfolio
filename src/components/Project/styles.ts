@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section< {width: number} >`
     cursor: pointer;
     min-width: 300px;
     height: 300px;
@@ -17,22 +17,6 @@ export const Container = styled.section`
         display: flex;
         align-items: center;
         gap: 10px;
-    }
-
-    .project1{
-        grid-area: project1;
-    }
-
-    .project2{
-        grid-area: project2;
-    }
-
-    .project3{
-        grid-area: project3;
-    }
-
-    .project4{
-        grid-area: project4;
     }
 
     .name{
@@ -54,6 +38,15 @@ export const Container = styled.section`
     .language{
         grid-area: language;
         justify-self: center;
+    }
+
+    @media(max-width: 1326px) {
+        max-width: 860px;
+        justify-content: space-between;
+    }
+
+    @media(max-width: 826px) {
+        min-width: ${props => `${props.width}px`};
     }
 `;
 

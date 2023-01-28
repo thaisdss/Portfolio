@@ -4,15 +4,16 @@ import * as C from "./styles";
 type Props = {
     dataRepo: Repos;
     index: number;
+    width: number;
 }
 
-export function Project({ dataRepo, index }: Props) {
+export function Project({ dataRepo, index, width }: Props) {
     function redirectPage() {
         window.open(dataRepo.page_url, "_blank")
     }
 
     return(
-        <C.Container className={`project${index}`} onClick={redirectPage}>
+        <C.Container className={`project${index}`} onClick={redirectPage} width={width}>
             <div className="name">
                 <img src="assets/folder.svg" alt="Imagem de Folder" />
                 <p>{dataRepo.name}</p>

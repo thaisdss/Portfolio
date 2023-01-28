@@ -1,8 +1,12 @@
 import * as C from "./style";
 
-export function Techs() {
+type Props = {
+    width: number;
+}
+
+export function Techs( { width }: Props ) {
     return(
-        <C.Container>
+        <C.Container width={width} >
             <h2>Tecnologias</h2>
             <C.TechsContainer>
                 <p>JavaScript</p>

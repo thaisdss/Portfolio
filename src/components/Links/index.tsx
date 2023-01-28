@@ -1,8 +1,12 @@
 import * as C from "./style";
 
-export function Links() {
+type Props = {
+    width: number;
+}
+
+export function Links( {width}: Props ) {
     return(
-        <C.Container>
+        <C.Container width={width}>
            <ul>
             <li>
                 <img src="assets/map-pin.svg" alt="ícone de Mapa" />

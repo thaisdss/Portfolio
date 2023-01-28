@@ -20,4 +20,32 @@ export const Container = styled.section`
         margin: 30px 0px 5px 0px;
         font-size: 2em;
     }
+
+    @media(max-width: 826px) {
+        min-width: 600px;
+
+        img{
+            width: 36%;
+        }
+    }
+
+    @media(max-width: 660px) {
+        min-width: 500px;
+    }
+
+    @media(max-width: 554px) {
+        min-width: 400px;
+    }
+
+    @media(max-width: 444px) {
+        min-width: 350px;
+    }
+
+    @media(max-width: 396px) {
+        min-width: 300px;
+    }
+
+    @media(max-width: 344px) {
+        min-width: 280px;
+    }
 `;

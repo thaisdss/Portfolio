@@ -11,6 +11,7 @@ import { Project } from "./components/Project";
 function App() {
   const [avatarUrl, setAvatarUrl] = useState<string>("");
   const [repos, setRepos] = useState<Repos[]>([]);
+  const [width, setWidth] = useState<number>(0);
 
   useEffect(() => {
     fetch("https://api.github.com/users/thaisdss")
@@ -42,18 +43,24 @@ function App() {
       .catch(err => console.log(err))
   }, [])
 
+  useEffect(() => {
+    const section = document.querySelector("section:first-of-type") as Element;
+    setWidth(section.clientWidth);
+  }, [screen.width])
+
   return (
     <C.Container>
       <Profile url={avatarUrl} />
-      <Links />
-      <Techs />
-      <AboutMe />
-      <Projects />
+      <Links width={width} />
+      <Techs width={width} />
+      <AboutMe width={width} />
+      <Projects width={width} />
       { repos.map((repo, index) => (
         <Project
         key={index}
         dataRepo={repo}
         index={index+1}
+        width={width}
         />
       )) }
       <C.Footer>

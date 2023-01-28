@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section< {width : number} >`
     grid-area: links;
 
     max-width: 400px;
@@ -12,5 +12,13 @@ export const Container = styled.section`
         align-items: center;
         gap: 15px;
         margin: 30px;
+    }
+
+    @media(max-width: 826px) {
+        min-width: ${ props => `${props.width}px` };
+
+        li{
+            justify-content: center;
+        }
     }
 `;
