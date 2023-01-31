@@ -5,18 +5,15 @@ type Props = {
 }
 
 export function Techs( { width }: Props ) {
+    const techs: string[] = ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Git", "GitHub", "NodeJS"]
+
     return(
         <C.Container width={width} >
             <h2>Tecnologias</h2>
             <C.TechsContainer>
-                <p>JavaScript</p>
-                <p>CSS</p>
-                <p>HTML</p>
-                <p>Git</p>
-                <p>GitHub</p>
-                <p>NodeJS</p>
-                <p>ReactJS</p>
-                <p>TypeScript</p>
+                {techs.map(tech => (
+                    <p key={tech}>{tech}</p>
+                ))}
             </C.TechsContainer>
         </C.Container>
     );
