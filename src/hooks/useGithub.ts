@@ -1,4 +1,4 @@
-import axios from "axios";
+import { api } from "../services/api";
 import { useState } from "react";
 import { Repos } from "../types/Repos";
 
@@ -8,8 +8,8 @@ export function useGithub(user: string) {
 
     const data = async () => {
         try{
-            const userData = await axios.get(user);
-            const userRepos = await axios.get(`${user}/repos`);
+            const userData = await api.get(user);
+            const userRepos = await api.get(`${user}/repos`);
     
             setAvatarUrl(userData.data.avatar_url)
     

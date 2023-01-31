@@ -9,7 +9,7 @@ import { Projects } from "./components/Projects";
 import { Project } from "./components/Project";
 
 function App() {
-  const {avatarUrl, repos} = useGithub("https://api.github.com/users/thaisdss");
+  const {avatarUrl, repos} = useGithub("thaisdss");
   const [width, setWidth] = useState<number>(0);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function App() {
       <Projects width={width} />
       { repos.map((repo, index) => (
         <Project
-        key={index}
+        key={repo.name}
         dataRepo={repo}
         index={index+1}
         width={width}
