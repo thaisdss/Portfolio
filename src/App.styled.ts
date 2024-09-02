@@ -15,8 +15,6 @@ export const Container = styled.div`
     "footer footer footer";
     justify-content: start;
     gap: 30px;
-    align-content: start;
-    justify-content: center;
 
     .project1{
         grid-area: project1;
