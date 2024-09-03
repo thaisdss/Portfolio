@@ -5,7 +5,7 @@ type Props = {
 }
 
 export function Techs( { width }: Props ) {
-    const techs: string[] = ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Git", "GitHub", "NodeJS"]
+    const techs = ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Git", "GitHub", "Next.js"]
 
     return(
         <C.Container width={width} >
