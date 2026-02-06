@@ -10,7 +10,7 @@ export function App() {
 
     return (
         <div className="w-full h-full bg-slate-800 font-sans px-8 py-4 flex flex-col gap-12 max-lg:gap-8">
-            <div className="flex items-start gap-8 rounded-xl p-8 text-slate-200 bg-slate-500/5 border border-slate-700 max-lg:flex-col lg:mt-4">
+            <div className="flex items-start gap-8 rounded-xl p-8 text-slate-200 bg-slate-500/5 border border-slate-700 max-lg:flex-col">
                 <img src={user.avatarUrl} alt="Avatar" className="w-32 h-32 rounded-full mb-4 border-2 border-emerald-500 max-lg:self-center" />
 
                 <div>                    
