@@ -28,7 +28,7 @@ export function ExperienceCard({ exp, index }: Props) {
                        shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
 
       {/* Barrinha */}
-      <span className="absolute left-[5px] top-4 h-full w-px bg-slate-700" />
+      <span className="absolute left-1.25 top-4 h-full w-px bg-slate-700" />
 
       {/* Card */}
       <div
