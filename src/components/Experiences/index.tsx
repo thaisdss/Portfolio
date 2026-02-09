@@ -7,8 +7,8 @@ type ExperiencesProps = {
 
 export function Experiences({ experiences }: ExperiencesProps) {
   return (
-    <section>
-      <h2 className="text-xl font-semibold mb-10 text-slate-100">
+    <section className="lg:mt-10">
+      <h2 className="text-xl font-semibold mb-6 text-slate-100">
         Experiência profissional
       </h2>
 

@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa"
 
 export function Footer() {
   return (
-    <footer className="border-t border-slate-800 pt-10">
+    <footer className="border-t border-slate-800 mt-10 max-lg:mt-4">
       <div className="text-center">
         <div className="flex justify-center gap-6">
           {[

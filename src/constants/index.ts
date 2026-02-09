@@ -34,3 +34,19 @@ export const experiences: ExperienceDomain[] = [
       "Desenvolvimento front-end de sistemas de gerenciamento e controle de processos para diferentes clientes, atuando em projetos reais com foco em usabilidade, boas práticas e manutenção de código.",
   },
 ]
+
+export const courses = [
+  {
+    title: "Projeto Geotec",
+    institution:
+      "Banco Central do Brasil (BC) & Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+  },
+  {
+    title: "Cooperativismo",
+    institution: "Fundação Getúlio Vargas (FGV)",
+  },
+  {
+    title: "Jovem Programadora",
+    institution: "Senac Espírito Santo",
+  },
+]
