@@ -10,8 +10,9 @@ type Props = {
 export function ProjectCard({ repo }: Props) {
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
-      className="rounded-xl border border-slate-700 bg-slate-500/5 p-6 flex flex-col justify-between"
+      whileHover={{ backgroundColor: "rgba(16,185,129,0.05)" }}
+      transition={{ duration: 0.2 }}
+      className="rounded-xl border border-slate-700 bg-slate-500/5 p-6 flex flex-col justify-between hover:border-emerald-500 transition"
     >
       <div>
         <h3 className="text-lg font-semibold text-slate-100">

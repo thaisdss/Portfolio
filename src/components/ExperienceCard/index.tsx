@@ -24,16 +24,14 @@ export function ExperienceCard({ exp, index }: Props) {
       className="relative pl-8"
     >
       {/* Bolinha */}
-      <span className="absolute left-0 top-1 h-3 w-3 rounded-full bg-emerald-500
-                       shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
+      <span className="absolute left-0 top-1 h-3 w-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
 
       {/* Barrinha */}
       <span className="absolute left-1.25 top-4 h-full w-px bg-slate-700" />
 
       {/* Card */}
       <div
-        className="rounded-xl border border-slate-700 bg-slate-500/5 p-6
-                   hover:border-emerald-500 transition"
+        className="rounded-xl border border-slate-700 bg-slate-500/5 p-6 hover:border-emerald-500 transition"
       >
         <h3 className="font-semibold text-slate-100">
           {exp.role}

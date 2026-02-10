@@ -20,8 +20,8 @@ export function Projects({ repos }: Props) {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious className="left-0" />
-      <CarouselNext className="right-0" />
+      <CarouselPrevious className="left-0 bg-emerald-500 border-emerald-600 hover:bg-emerald-300 [&_svg]:text-slate-800" />
+      <CarouselNext className="right-0 bg-emerald-500 border-emerald-600 hover:bg-emerald-300 [&_svg]:text-slate-800" />
     </Carousel>
   )
 }
