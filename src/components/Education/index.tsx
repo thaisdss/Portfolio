@@ -11,7 +11,7 @@ export const Education = () => {
       className="space-y-4"
     >
       <h3 className="text-sm font-semibold text-slate-300 uppercase tracking-wide">
-        Formação
+        Formação Acadêmica
       </h3>
 
       <div className="relative pl-6">
