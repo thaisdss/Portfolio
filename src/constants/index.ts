@@ -50,3 +50,5 @@ export const courses = [
     institution: "Senac Espírito Santo",
   },
 ]
+
+export const repoNames = ["If-data-merge", "municipalities-pre-verification", "Mini-Projects-React", "Mini-Projects-JS"]
