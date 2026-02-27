@@ -8,7 +8,7 @@ import { courses, experiences, technologies } from "./constants"
 import { useGithub } from "./hooks/useGithub"
 
 export function App() {
-    const user = useGithub("thaisdss", ["If-data-merge", "Mini-Projects-React", "Mini-Projects-JS"])
+    const user = useGithub("thaisdss", ["If-data-merge", "municipalities-pre-verification", "Mini-Projects-React", "Mini-Projects-JS"])
 
     return (
         <div className="w-full h-full bg-slate-800 font-sans px-8 py-4 flex flex-col max-lg:gap-8">
