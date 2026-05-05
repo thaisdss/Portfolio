@@ -37,17 +37,17 @@ export const experiences: ExperienceDomain[] = [
 
 export const courses = [
   {
-    title: "Projeto Geotec",
+    title: "Jovem Programadora",
+    institution: "Senac Espírito Santo",
+  },
+  {
+    title: "Arquitetura da Informação e Projeto de Sistemas",
     institution:
-      "Banco Central do Brasil (BC) & Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+      "GGTTE - Unicamp",
   },
   {
     title: "Cooperativismo",
     institution: "Fundação Getúlio Vargas (FGV)",
-  },
-  {
-    title: "Jovem Programadora",
-    institution: "Senac Espírito Santo",
   },
 ]
 
