@@ -17,7 +17,7 @@ export function App() {
 
                 <div>                    
                     <h1 className="text-xl font-bold">Thaís Silva</h1>
-                    <p className="text-emerald-500 text-sm">Front-end Developer</p>
+                    <p className="text-emerald-500 text-sm">Software Developer</p>
 
                     <p className="text-sm mt-5">Iniciei minha trajetória em TI após um curso de JavaScript e, desde então, atuo no desenvolvimento front-end para aplicações web e mobile.</p>
                     <p className="text-sm max-lg:mt-1">Atualmente, atuo no desenvolvimento de sistemas que dão suporte a processos de crédito rural, análises técnicas e outras operações internas de bancos e cooperativas financeiras.</p>
