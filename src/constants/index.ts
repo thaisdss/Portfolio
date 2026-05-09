@@ -5,6 +5,7 @@ import { TbBrandTypescript } from "react-icons/tb"
 import { GitBranch } from "lucide-react"
 import type { ExperienceDomain } from "@/types/Experience"
 import type { TechDomain } from "@/types/Tech"
+import type { Course } from "@/types/Course";
 
 export const technologies: TechDomain[] = [
   { name: "React", icon: FaReact },
@@ -35,19 +36,22 @@ export const experiences: ExperienceDomain[] = [
   },
 ]
 
-export const courses = [
+export const courses: Course[] = [
   {
     title: "Jovem Programadora",
     institution: "Senac Espírito Santo",
+    situation: "completed",
   },
   {
     title: "Arquitetura da Informação e Projeto de Sistemas",
     institution:
       "GGTTE - Unicamp",
+    situation: "completed",
   },
   {
-    title: "Cooperativismo",
-    institution: "Fundação Getúlio Vargas (FGV)",
+    title: "Introdução à Inteligência Artificial",
+    institution: "Eldorado",
+    situation: "completed",
   },
 ]
 

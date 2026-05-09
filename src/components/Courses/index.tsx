@@ -34,7 +34,7 @@ export const Courses = ({ courses }: CoursesProps) => {
               </p>
 
               <Badge className="bg-emerald-500/15 text-emerald-400 text-xs">
-                Concluído
+                {course.situation === "completed" ? "Concluído" : "Em andamento"}
               </Badge>
             </div>
 
