@@ -22,10 +22,17 @@ export const technologies: TechDomain[] = [
 export const experiences: ExperienceDomain[] = [
   {
     company: "Banestes",
-    role: "Front-end Developer",
+    role: "Software Developer",
     period: "Jun/2025 — Atual",
     description:
       "Atuação no desenvolvimento de sistemas internos que apoiam os processos de crédito rural e crédito imobiliário, participando de todo o ciclo do produto — desde UX/UI, desenvolvimento front-end, integrações e testes.",
+  },
+  {
+    company: "IFES/FAPES",
+    role: "Software Developer",
+    period: "Set/2026 — Atual",
+    description:
+      "Atuação no desenvolvimento de aplicação web integrada à Inteligência Artificial para monitoramento e análise da qualidade das praias do Espírito Santo, participando do desenvolvimento full-stack, integração de dados e implementação da infraestrutura da aplicação.",
   },
   {
     company: "CSP Tech",
